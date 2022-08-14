@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Barra = styled.div`
+  margin: 1%;
   width: 97%;
   height: 60px;
   background-color: #c14242;

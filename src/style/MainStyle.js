@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  padding: 0 auto;
+  width: 200px;
+  margin-left: 20%;
 `;
 
 export const Produto = styled.div`
@@ -11,6 +12,7 @@ export const Produto = styled.div`
   font-size: 2rem;
   margin: 10px;
   color: #950303;
+
   .fino {
     font-weight: lighter;
   }

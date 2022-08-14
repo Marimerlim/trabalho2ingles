@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as S from "./style/Style";
 import Main from "./Main";
+import Footer from "./Footer";
 
 import Menu from "./img/menu.png";
 import Sacola from "./img/sacola.png";
@@ -23,6 +24,8 @@ export default class App extends Component {
           <img src={this.state.sacola} alt="sacola" />
         </S.Barra>
         <Main produto={this.state.produto} />
+
+        <Footer />
       </>
     );
   }
