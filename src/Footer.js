@@ -3,7 +3,7 @@ import * as S from "./style/FooterStyle";
 
 export default class Footer extends Component {
   state = {
-    numero: 0,
+    numero: 1,
     quantidade: 10
   };
 
@@ -16,7 +16,7 @@ export default class Footer extends Component {
   };
 
   remover = () => {
-    if (this.state.numero > 0) {
+    if (this.state.numero > 1) {
       this.setState({
         numero: this.state.numero - 1
       });
